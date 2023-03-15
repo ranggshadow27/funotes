@@ -32,15 +32,21 @@ class AllDetailsController extends GetxController {
         .collection('user_savings')
         .doc(savingName);
 
-    await collectionReference.collection('details').get().then((snapshot) {
-      snapshot.docs.forEach((doc) {
-        doc.reference.delete();
+    try {
+      await collectionReference.collection('details').get().then((snapshot) {
+        snapshot.docs.forEach((doc) {
+          doc.reference.delete();
+        });
       });
-    });
-    await collectionReference.delete();
 
-    Get.offAllNamed(Routes.HOME);
-    Get.snackbar('Sukses', "${dataSavings['name']} berhasil dihapus.");
-    update();
+      await collectionReference.delete();
+
+      Get.offAllNamed(Routes.HOME);
+      Get.snackbar('Sukses', "${dataSavings['name']} berhasil dihapus.");
+      update();
+    } catch (e) {
+      Get.back();
+      Get.snackbar('Error', 'Cannot delete this! err${e}');
+    }
   }
 }

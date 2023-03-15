@@ -259,7 +259,6 @@ class AllDetailsView extends GetView<AllDetailsController> {
                                 arguments: dataSavings,
                               ),
                               child: Container(
-                                // padding: EdgeInsets.all(20),
                                 width: MediaQuery.of(context).size.width,
                                 child: Column(
                                   children: [

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "113888065838",
+    "project_id": "fu-notes",
+    "storage_bucket": "fu-notes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113888065838:android:7e471d9eff460600ada2bf",
+        "android_client_info": {
+          "package_name": "com.ranggicaaever.funotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113888065838-b7du2s7aevsqv3t674i6stmba77g6nbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTXyZc5Z8f_IsiDYnh0T2Y6sNVFVwlPiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113888065838-b7du2s7aevsqv3t674i6stmba77g6nbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

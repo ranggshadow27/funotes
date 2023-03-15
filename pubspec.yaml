@@ -1,0 +1,42 @@
+name: funotes
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  firebase_core: 2.4.1
+  firebase_auth: 4.2.3
+  cloud_firestore: 4.3.0
+  image_picker: 0.8.6
+  firebase_storage: 11.0.10
+  path_provider: 2.0.11
+  convex_bottom_bar: 3.1.0+1
+  intl: 0.17.0
+  dropdown_search: 5.0.0
+  google_fonts: 4.0.3
+  font_awesome_flutter: 10.4.0
+  animated_bottom_navigation_bar: 1.1.0+1
+  flutter_svg: 1.1.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter_icons: 
+  android: launcher_icon
+  image_path: assets/icons/icon-128x128.png
+  ios: true
+
+flutter: 
+  assets: 
+    - assets/img/
+    - assets/icons/
+  uses-material-design: true
+

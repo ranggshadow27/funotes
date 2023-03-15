@@ -187,7 +187,7 @@ class AllDetailsView extends GetView<AllDetailsController> {
                     children: [
                       SizedBox(height: 80),
                       Text(
-                        "Memuat data, sebentar ...",
+                        "Memuat data, sebentar ..",
                         style: comfortaaB.copyWith(
                           color: blackFont,
                         ),

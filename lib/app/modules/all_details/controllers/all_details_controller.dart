@@ -42,7 +42,5 @@ class AllDetailsController extends GetxController {
     Get.offAllNamed(Routes.HOME);
     Get.snackbar('Sukses', "${dataSavings['name']} berhasil dihapus.");
     update();
-    // print(
-    //     'await firestore.collection(savings).doc(${uid}.collection(user_saving).doc(${savingName}))');
   }
 }
